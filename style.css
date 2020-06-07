@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.body{
+     width: 100%;
+    height:1600px;
+    background-color:aquamarine;
+}
+.body1{
+    background-image: url(img/1.jpg);
+    width:100%;
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topmenu{
+	Width:100%;
+	height:200px;
+	background-color: ;
+	color:white;
+}
+.nav{
+	width:100%;
+	height:100px;
+
+}
+.nav ul {
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+		
+}
+.nav ul li {
+	list-style: none;
+	padding: 5px 15px;
+	margin-top: 30px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color:white;
+}
+.nav ul li:hover{
+	background-color:red;
+}
+h2{
+	color:;
+	text-align: center;
+	font-family:AR Berkley;
+	font-size:40px;
+}
+.body2{
+    background-color: #d6aa8c;
+    width:100%;
+    height:1050px;
+}
+.body3{
+    background-color: black;
+    width:100%;
+    height:400px;
+}
+.body4{
+	position:absolute;
+	background-color: rgba(0,0,0,0.30);
+	box-shadow: 2px 2px 20px black;
+	width: 65%;
+	height:1550px;
+	z-index:1;
+	top:300px;
+	left:250px;
+}
+.a1{
+	width:100%;
+	height:370px;
+	margin-top:80px;
+}
+.aa{
+	font-family: AR Julian;
+	color:white;
+	margin-left: 100px;
+	font-size:60px;
+}
+.ab{
+	font-family: AR Julian;
+	color:white;
+	margin-left: 150px;
+	font-size:60px;
+}
+.ac{
+	font-family: AR Berkley;
+	color:white;
+	margin-left: 130px;
+	font-size:18px;
+}
+.ad{
+	
+	color:white;
+	margin-left:50px;
+	font-size:30px;
+	margin-top:20px;
+	font-family: Arno pro;
+}
+button{
+	margin:20px 0px 0px 150px;
+	background-color: red;
+	border:none;
+	width: 150px;
+	height:30px;
+	color:white;
+	font-size:16px;
+}
+.full{
+	background-color:rgba(0,0,0,0.80);
+	color:white;
+	margin:0px;
+	box-shadow: 10px 0px 50px 0px black;
+}
+.a2{
+	
+	display: flex;
+	flex-direction: row;
+	
+}
+.a21{
+	margin-top: 130px;
+	width:50%;
+	height:400px;
+	
+}
+.ae{
+	text-align: right;
+	font-family: Arno pro;
+	margin-left:40px;
+}
+.af{
+	text-align: right;
+	font-family: Arial;
+	font-size: 16px;
+	margin-top:10px;
+}
+.ag{
+	float:right;
+}
+.ah{
+	width:250px;
+	height:100px;
+}
+.a22{
+	margin-top:130px;
+}
+.ai{
+	font-size: 40px;
+	text-align: center;
+	font-family: Arno pro;
+}
+table,.aj, li{
+	list-style: none;
+}
+td{
+	padding:0px;
+}
+
+.b{
+	font-family: Arno pro;
+	color:black;
+	margin:0px;
+	position:relative;
+	top:-250px;
+	text-align:center;
+}
+h4{
+	font-size:40px;
+}
+.b12{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top:20px;
+}
+.b12 li{
+	padding:5px 15px;
+	border:1px solid black;
+	margin-right: 10px;
+}
+
+.b2{
+	width:100%;
+	height:400px;
+	margin-top: 30px;
+}
+.b21 img{
+	width:300px;
+	height:150px;
+}
+.b21{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.pa1{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	
+}
+input[type=text]{
+	width:230px;
+	background-color: rgba(225,171,138,0.60);
+	height:30px;
+	margin-top:35px;
+	color:white;
+	font-size:18px;
+	border:none;
+	
+}
+input[type=email]{
+	width:230px;
+	background-color: rgba(225,171,138,0.60);
+	height:30px;
+	margin-top:30px;
+	color:white;
+	font-size:18px;
+	border:none;
+	
+}
+.pb{
+	display: flex;
+	flex-direction: column;
+	width:;
+}
+textarea{
+	width:300px;
+	background-color: rgba(225,171,138,0.60);
+	height:100px;
+	margin-top:30px;
+	color:white;
+	font-size:18px;
+	border:none;
+	
+}
+.pc{
+	text-transform: uppercase;
+	font-size:18px;
+	color:white;
+	
+}
+.pa{
+	font-size:30px;
+	color:white;
+	text-align: center;
+	padding-top: 80px;
+}
+.pc{
+	margin-left:20px;
+}
+.pp{
+	margin-left:40%;
+	margin-top:30px;
+}
+/*.c{
+	position:absolute;
+	z-index:1;
+	top: 235%;
+	left:0%;
+	
+}*/
